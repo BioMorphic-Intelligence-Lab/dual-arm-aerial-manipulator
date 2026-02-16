@@ -4,6 +4,8 @@ This directory contains an export of the design files used to construct the Dual
 ICRA paper: https://arxiv.org/pdf/2602.10703 \
 Associated software repository: https://github.com/BioMorphic-Intelligence-Lab/manipulator_assisted_landing
 
+If you plan to create this aerial manipulator, I recommend that you have some basic tools like soldering iron and consumables, screwdriver kit (I used hex socket bolts for everything), tweezers, flat-nose pliers etc. A Bambulab X1 Carbon was used and I printed all the parts in PLA.
+
 ## Part list
 The design is divided into 6 mechanical sub-assemblies. Per sub-assembly a part list is provided.
 
@@ -38,6 +40,7 @@ This assembly functions a bit like a bus, the structural attachment for all the 
 | Battery               | 2          | Body             | DB-15        | Buy                  | Any 2 identical 6S batteries should work.                     |
 
 ### Pivot Joint
+The pivot joint is the most complex part and is a bit fiddly to put together. I printed everything out of PLA (including the gears) and it worked fine.
 | **Part name**       | **Amount** | **Sub-assembly** | **Part no.** | **Acquisition** | **Information**                                                    |
 |---------------------|------------|------------------|--------------|-----------------|--------------------------------------------------------------------|
 | Sun Shaft           | 1          | Pivot Joint      | PJ-01        | Buy/lathe       | Use a strong material, I used steel but aluminium should work too. |
@@ -62,9 +65,6 @@ This assembly functions a bit like a bus, the structural attachment for all the 
 | Shoulder Servo   | 1          | Shoulder Link    | SL-02        | Buy             | Feetech STS3250       |
 | Ring Gear Flange | 1          | Shoulder Link    | SL-03        | 3D print        | Glue on the Ring Gear |
 
-
-
-
 ### Upper Arm Link (2x)
 | **Part name**             | **Amount** | **Sub-assembly** | **Part no.** | **Acquisition** | **Information**                                                                               |
 |---------------------------|------------|------------------|--------------|-----------------|-----------------------------------------------------------------------------------------------|
@@ -80,8 +80,6 @@ This assembly functions a bit like a bus, the structural attachment for all the 
 | Elbow Axle                | 1          | Upper Arm        | UA-12        | Buy/cut         | Aluminium axle (same as Planet Shaft).                                                        |
 | Torsion Bracket           | 2          | Upper Arm        | UA-14        | 3D print        |                                                                                               |
 
-
-
 ### Forearm Link
 | **Part name**     | **Amount** | **Sub-assembly** | **Part no.** | **Acquisition** | **Information**         |
 |-------------------|------------|------------------|--------------|-----------------|-------------------------|
@@ -91,7 +89,6 @@ This assembly functions a bit like a bus, the structural attachment for all the 
 | Elbow Flange      | 1          | Forearm          | FA-04        | 3D print        |                         |
 | Elbow Spacer      | 1          | Forearm          | FA-05        | 3D print        |                         |
 | Tube End          | 1          | Forearm          | FA-08        | 3D print        |                         |
-
 
 ### Electronics
 | **Part name**       | **Amount** | **Sub-assembly** | **Part no.** | **Acquisition** | **Information**                                           |
@@ -105,7 +102,11 @@ This assembly functions a bit like a bus, the structural attachment for all the 
 | Optical Flow        | 1          | Electronics      | EL-07        | Buy             | Holybro PMW3901                                           |
 | Laser Rangefinder   | 1          | Electronics      | EL-08        | Buy             | ST VL53L1X Lidar Rangefinder                              |
 
-## Tips
+## Contributing
+If you want to contribute, or copied the design to make some adjustments of your own that you want to share, just open an issue describing your addition and we'll figure out a way to merge.
 
+## Support
+You can get in touch with me by putting your question as an issue in this repository, or e-mailing at m.b.j.brummelhuis-1@tudelft.nl
 
 ## License
+MIT License
